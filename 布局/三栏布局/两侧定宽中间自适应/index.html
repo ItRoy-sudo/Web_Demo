@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两栏定宽中间自适应</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        /*第一种实现方式：绝对定位*/
+        #container1{
+            border: brown 1px solid;
+            position: relative;
+            /*width: 1400px;
+            height: 500px;*/
+        }
+        .absolute{
+            position: absolute;
+        }
+        .left1{
+            width: 200px;
+            height: 500px;
+            background-color: skyblue;
+            left: 0;
+        }
+        .right1{
+            width: 200px;
+            height: 500px;
+            background-color: pink;
+            right: 0;
+        }
+        .center1{
+            width: 100%;
+            height: 500px;
+            background-color: lightcoral;
+            left:200px;
+            right: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<!--第一种实现方式：绝对定位-->
+<div id="container1">
+    <div class="absolute left1"></div>
+    <div class="absolute center1"></div>
+    <div class="absolute right1"></div>
+</div>
+
+
+
+</body>
+</html>

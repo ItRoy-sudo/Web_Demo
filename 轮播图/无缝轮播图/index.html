@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无缝轮播图</title>
+    <script type="text/javascript" src="./index.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            position: relative;
+            width: 1077px;
+            height: 606px;
+            margin: 200px auto 0;
+            overflow: hidden;   /*隐藏可视区域外的图片列表*/
+        }
+        #img-box{
+            display: flex;    /*使图片元素水平排列*/
+            /*！！注意：对图片盒子使用相对定位，根据不同图片挪动位置（即改变left）*/
+            position: relative;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: 0.5s ease;   /*添加切换图片的过渡效果*/
+        }
+        #img-box img{
+            width: 100%;
+            height: 100%;
+        }
+        #button-box a{
+            /*左右切换按钮垂直居中*/
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            display: block;
+            width: 40px;
+            height: 70px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            user-select: none;
+            font-size: 30px;
+            text-align: center;
+            line-height: 70px;
+            text-decoration: none;
+        }
+        #left-button{
+            left: 0;
+        }
+        #right-button{
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <!--图片盒子-->
+    <div id="img-box">
+        <!--图片大小为1077x606-->
+        <img src="img-1.jpeg" alt="" width="1077px" height="606px">
+        <img src="img-2.jpeg" alt="" width="1077px" height="606px">
+        <img src="img-3.jpeg" alt="" width="1077px" height="606px">
+    </div>
+    <!--左右切换按钮-->
+    <div id="button-box">
+        <!--href属性为javascript:;时，禁用a标签的默认事件，即无法跳转和刷新-->
+        <a href="javascript:;" id="left-button">&lt;</a>
+        <a href="javascript:;" id="right-button">&gt;</a>
+    </div>
+</div>
+</body>
+</html>

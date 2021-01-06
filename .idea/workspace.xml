@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="466bb267-ed09-4432-a11c-35b005f0ca6b" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Web_Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/布局/三栏布局/两侧定宽中间自适应/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/布局/三栏布局/两侧定宽中间自适应/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播图/无缝轮播图/img-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播图/无缝轮播图/img-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播图/无缝轮播图/img-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播图/无缝轮播图/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/轮播图/无缝轮播图/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kbD2EfCFjh7qMCvXh4kkv7IJx1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/轮播图/无缝轮播图" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/轮播图/无缝轮播图" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/轮播图/无缝轮播图" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Demo/轮播图/无缝轮播图/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="466bb267-ed09-4432-a11c-35b005f0ca6b" name="默认的" comment="" />
+      <created>1605960188701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605960188701</updated>
+      <workItem from="1605960190766" duration="22708000" />
+      <workItem from="1606567207677" duration="153000" />
+      <workItem from="1609763360019" duration="18910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom" timestamp="1609862819629">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819629" />
+    <state width="1659" height="290" key="GridCell.Tab.0.center" timestamp="1609862819628">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819628" />
+    <state width="1659" height="290" key="GridCell.Tab.0.left" timestamp="1609862819627">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819627" />
+    <state width="1659" height="290" key="GridCell.Tab.0.right" timestamp="1609862819628">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819628" />
+    <state width="1659" height="290" key="GridCell.Tab.1.bottom" timestamp="1609862819630">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819630" />
+    <state width="1659" height="290" key="GridCell.Tab.1.center" timestamp="1609862819630">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819630" />
+    <state width="1659" height="290" key="GridCell.Tab.1.left" timestamp="1609862819629">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819629" />
+    <state width="1659" height="290" key="GridCell.Tab.1.right" timestamp="1609862819630">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819630" />
+    <state width="1659" height="290" key="GridCell.Tab.2.bottom" timestamp="1609862819632">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819632" />
+    <state width="1659" height="290" key="GridCell.Tab.2.center" timestamp="1609862819631">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819631" />
+    <state width="1659" height="290" key="GridCell.Tab.2.left" timestamp="1609862819631">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819631" />
+    <state width="1659" height="290" key="GridCell.Tab.2.right" timestamp="1609862819632">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="290" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609862819632" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1606390030800">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/0.23.1680.971@0.23.1680.971" timestamp="1606390030800" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605964309499">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605964309499" />
+  </component>
+</project>
