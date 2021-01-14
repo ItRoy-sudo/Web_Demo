@@ -9,7 +9,7 @@
             margin: 0;
         }
         /*第一种实现方式：绝对定位*/
-        #container1{
+        #container{
             border: brown 1px solid;
             position: relative;
             /*width: 1400px;
@@ -18,19 +18,19 @@
         .absolute{
             position: absolute;
         }
-        .left1{
+        .left{
             width: 200px;
             height: 500px;
             background-color: skyblue;
             left: 0;
         }
-        .right1{
+        .right{
             width: 200px;
             height: 500px;
             background-color: pink;
             right: 0;
         }
-        .center1{
+        .center{
             width: 100%;
             height: 500px;
             background-color: lightcoral;
@@ -42,13 +42,11 @@
 <body>
 
 <!--第一种实现方式：绝对定位-->
-<div id="container1">
-    <div class="absolute left1"></div>
-    <div class="absolute center1"></div>
-    <div class="absolute right1"></div>
+<div id="container">
+    <div class="absolute left"></div>
+    <div class="absolute center"></div>
+    <div class="absolute right"></div>
 </div>
-
-
 
 </body>
 </html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex布局实现两侧定宽中间自适应</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            display: flex;
+            width: 100%;
+            height: 100px;
+        }
+        .both{
+            min-width: 300px;
+            height: 100px;
+        }
+        .left{
+            background-color: red;
+        }
+        .right{
+            background-color: green;
+        }
+        .center{
+            flex: 1;
+            height: 100px;
+            background-color: skyblue;
+            min-width: 500px;    /*若不加上最小宽度，则存在中间区域被挤没得情况*/
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="both left"></div>
+    <div class="center"></div>
+    <div class="both right"></div>
+</div>
+</body>
+</html>

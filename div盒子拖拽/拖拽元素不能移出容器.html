@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div盒子拖拽</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            width: 300px;
+            height: 300px;
+            border: 2px solid skyblue;
+            margin: 100px auto;
+        }
+        #box {
+            /*注意：通过鼠标事件进行拖拽，拖拽元素一定要使用绝对定位，脱离文档流才可以拖拽*/
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="box"></div>
+</div>
+</body>
+
+<script>
+    window.onload=function (){
+        //方法2————通过鼠标事件实现拖拽
+        // 两大要点：
+        // 1.如何判断处于拖拽状态？鼠标左键按下+鼠标处于拖拽元素区域
+        // 2.鼠标动，则拖拽元素动。鼠标现在x/y - 鼠标原先x/y = 拖拽元素现在x/y - 拖拽元素原先x/y
+
+        //通过鼠标事件实现拖拽
+        let container=document.querySelector("#container");
+        //获取容器区域的四条边界值
+        let minX=container.offsetLeft;
+        let maxX=minX+container.clientWidth-container.style.borderRightWidth;
+        let minY=container.offsetTop;
+        let maxY=minY+container.clientHeight-container.style.borderBottomWidth;
+
+        let box=document.querySelector("#box");
+        let status=false;       //status为拖拽状态，status=true表示拖拽，反之则未拖拽
+        let diffX=0;            //鼠标在拖拽元素区域内点击位置的横坐标-拖拽元素左边框的横坐标，即横坐标差值
+        let diffY=0;            //鼠标在拖拽元素区域内点击位置的纵坐标-拖拽元素左边框的纵坐标，即纵坐标差值
+        //鼠标按下触发：
+        box.onmousedown=function (e){
+            if(e.target.id=="box")
+                status=true;
+            diffX=e.clientX-box.offsetLeft;
+            diffY=e.clientY-box.offsetTop;
+        }
+        //鼠标弹起触发：
+        box.onmouseup=function (){
+            status=false;
+        }
+        //鼠标移动触发：
+        box.onmousemove=function (e){    //e为鼠标事件对象，所以可以通过e.clientX获取鼠标当前横坐标
+            if(status){   //处于拖拽状态才可进行拖拽
+                let left=e.clientX-diffX;     //通过鼠标现在的横坐标减去横坐标差值，得到拖拽元素现在的横坐标
+                let top=e.clientY-diffY;
+                let width=box.clientWidth;
+                let height=box.clientHeight;
+                //判断是否超出容器区域并计算最终left和top
+                if(left<minX){
+                    left=minX;
+                }
+                if((left+width)>maxX){
+                    left=right-width;
+                }
+                if(top<minY){
+                    top=minY;
+                }
+                if((top+height)>maxY){
+                    top=bottom-height;
+                }
+                box.style.left=left+"px";    //通过样式改变拖拽元素位置
+                box.style.top=top+"px";      //注意：拖拽元素最好使用绝对定位，脱离文档流才可以拖拽
+            }
+        }
+    }
+
+</script>
+</html>
