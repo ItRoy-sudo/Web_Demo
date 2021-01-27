@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float布局实现两侧定宽中间自适应</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            width: 100%;
+            height: 300px;
+        }
+        .left{
+            width: 200px;
+            height: 300px;
+            float: left;
+            background-color: skyblue;
+        }
+        .right{
+            width: 200px;
+            height: 300px;
+            float: right;
+            background-color: lightcoral;
+        }
+        .center{
+            margin: 0 200px;
+            height: 300px;
+            background-color: antiquewhite;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="container">
+    <!--
+    注意顺序：先左再右后中间
+    如果先标准文档流，则后面的浮动元素另起一行；如果先浮动元素，后面的标准文档流仍按照原位置排列
+    -->
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center"></div>
+</div>
+
+</body>
+</html>
